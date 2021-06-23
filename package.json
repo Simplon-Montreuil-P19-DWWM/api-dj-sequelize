@@ -9,25 +9,16 @@
   "scripts": {
     "start": "node ./src/index.js",
     "dev": "nodemon",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
     "sequelize": "sequelize"
   },
   "devDependencies": {
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-promise": "^4.2.1",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.1"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "helmet": "^4.2.0",
@@ -36,7 +27,7 @@
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.3.4",
+    "sequelize": "^6.6.2",
     "sequelize-cli": "^6.2.0",
     "uuid": "^8.3.0"
   }
